@@ -6,11 +6,11 @@
   margin: 0;
 }
 
-.backgroundimg{
+.backgroundimg {
   background-image: url(images/landing-page.jpg);
   background-size: cover;
   background-position: center center;
-  background-repeat:  no-repeat;
+  background-repeat: no-repeat;
   height: 100vh;
 }
 
@@ -18,4 +18,70 @@
   text-align: center;
   font-size: 5em;
   color: #fff;
+}
+
+.linkedin-logo {
+  height: 23.993px;
+}
+.github-logo {
+  height: 23.993px;
+}
+
+/* Section CSS */
+
+h2 {
+  padding: 30px;
+}
+
+p {
+  margin-top: 20px;
+}
+.about-me,
+.contact-me {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 70vh;
+}
+.projects {
+  height: 100vh;
+}
+.profile-pic {
+  height: 350px;
+  border-radius: 50%;
+  border: 10px solid #000;
+}
+/* Fade in text for each section CSS */
+/* body,
+html,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.tag {
+}
+
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+} */
+
+.about-me {
+  background-color: lightyellow;
+}
+.projects {
+  background-color: lightcoral;
+}
+.contact-me {
+  background-color: lightblue;
 }
