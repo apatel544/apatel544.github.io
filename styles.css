@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.backgroundimg{
+  background-image: url(images/landing-page.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  height: 100vh;
+}
+
+.home {
+  text-align: center;
+  font-size: 5em;
+  color: #fff;
+}
