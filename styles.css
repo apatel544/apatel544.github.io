@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
 * {
   align-items: center;
   padding: 0;
   margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Playfair Display', serif;
+  /* font-family: 'PT Serif', serif; */
 }
 
 .backgroundimg {
@@ -34,7 +34,7 @@ h1{
   font-size: 150px;
   text-align: center;
   padding-right: 40px;
-  padding-bottom: 100px;
+  padding-bottom: 500px;
   color: white;
 }
 h2 {
