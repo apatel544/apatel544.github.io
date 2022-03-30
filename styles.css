@@ -4,6 +4,7 @@
   align-items: center;
   padding: 0;
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .backgroundimg {
@@ -29,55 +30,56 @@
 
 /* Section CSS */
 
+h1{
+  font-size: 150px;
+  text-align: center;
+  padding-right: 40px;
+  padding-bottom: 100px;
+  color: white;
+}
 h2 {
   padding: 30px;
+  text-align: center;
 }
 
-p {
-  margin-top: 20px;
-}
+
 .about-me,
 .contact-me {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 70vh;
+
 }
 .projects {
   height: 100vh;
 }
 .profile-pic {
-  height: 350px;
+  height: 500px;
   border-radius: 50%;
-  border: 10px solid #000;
 }
-/* Fade in text for each section CSS */
-/* body,
-html,
-h1 {
-  margin: 0;
-  padding: 0;
+
+.card {
+  height: 700px;
+  margin: 50px;
 }
-h1 {
-  color: white;
-  font-size: 4rem;
+
+.card-img-top {
+  height: 300px;
+  border: #000 solid 5px;
+}
+
+.card-title {
   text-align: center;
 }
 
-.tag {
+.bio {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 5px;
+  padding: 10px 20px;
 }
-
-.tag {
-  opacity: 0;
-  transform: translate(0, 10vh);
-  transition: all 1s;
-}
-
-.tag.visible {
-  opacity: 1;
-  transform: translate(0, 0);
-} */
 
 .about-me {
-  background-color: lightyellow;
+  background-color: #fff;
 }
 .projects {
   background-color: lightcoral;
