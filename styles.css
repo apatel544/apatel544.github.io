@@ -45,6 +45,7 @@ h2 {
 .profile-pic {
   height: 450px;
   padding-left: 30px;
+  width: 100%;
 }
 
 .card {
@@ -54,7 +55,7 @@ h2 {
 
 .card-img-top {
   border: #000 solid 5px;
-  width: 350px;
+  width: 100%;
 }
 
 .card-title {
@@ -89,7 +90,9 @@ h2 {
   text-align: center;
   padding-top: 10px;
 }
-
+.intro-video{
+  width: 100%;
+}
 .email-btn,.bus-repo-btn,.pac-repo-btn,.eyes-repo-btn, .intro-video-btn {
   background-color: #5c383b;
   color:#fff;
