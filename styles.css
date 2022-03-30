@@ -53,7 +53,7 @@ h2 {
 
 .card-img-top {
   border: #000 solid 5px;
-  width: 100%;
+  width: 350px;
 }
 
 .card-title {
@@ -70,7 +70,7 @@ h2 {
 
 .about-me {
   background-color: #bfc1c7;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 .projects {
   background-color: #3b3c46;
@@ -83,17 +83,26 @@ h2 {
   padding-bottom: 40px;
   color:#fff;
 }
-.email {
+.email,.bus-repo,.pac-repo,.eyes-repo, .intro-video {
   text-align: center;
+  padding-top: 10px;
+
 }
 
-.email-btn {
+.email-btn,.bus-repo-btn,.pac-repo-btn,.eyes-repo-btn, .intro-video-btn {
   background-color: #5c383b;
   color:#fff;
   padding: 10px 20px;
-  border-radius: 6px;  
+  border-radius: 6px;
+  font-weight: 700; 
+
 }
 
+.demo-app{
+  text-align: center;
+  padding: 20px;
+
+}
 
 @media (max-width: 770px) {
   .card-section {
