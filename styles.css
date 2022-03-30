@@ -42,31 +42,18 @@ h2 {
   text-align: center;
 }
 
-h3 {
-  text-align: justify;
-}
-
-.about-me,
-.contact-me {
-  height: 70vh;
-
-}
-.projects {
-  height: 100vh;
-}
 .profile-pic {
   height: 375px;
 }
 
 .card {
-  height: 700px;
-  margin: 50px;
   background-color: #3b3c46;
+  border: none;
 }
 
 .card-img-top {
-  height: 300px;
   border: #000 solid 5px;
+  width: 100%;
 }
 
 .card-title {
@@ -83,11 +70,33 @@ h3 {
 
 .about-me {
   background-color: #bfc1c7;
+  padding-bottom: 30px;
 }
 .projects {
   background-color: #3b3c46;
   color: #fff;
 }
+
 .contact-me {
-  background-color: lightblue;
+  background-color: #7792a1;
+  margin-bottom: 0;
+  padding-bottom: 40px;
+  color:#fff;
+}
+.email {
+  text-align: center;
+}
+
+.email-btn {
+  background-color: #5c383b;
+  color:#fff;
+  padding: 10px 20px;
+  border-radius: 6px;  
+}
+
+
+@media (max-width: 770px) {
+  .card-section {
+    flex-wrap: wrap;
+  }
 }
