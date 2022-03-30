@@ -61,6 +61,7 @@ h3 {
 .card {
   height: 700px;
   margin: 50px;
+  background-color: #3b3c46;
 }
 
 .card-img-top {
@@ -81,10 +82,11 @@ h3 {
 }
 
 .about-me {
-  background-color: #fff;
+  background-color: #bfc1c7;
 }
 .projects {
-  background-color: lightcoral;
+  background-color: #3b3c46;
+  color: #fff;
 }
 .contact-me {
   background-color: lightblue;
