@@ -43,7 +43,8 @@ h2 {
 }
 
 .profile-pic {
-  height: 375px;
+  height: 450px;
+  padding-left: 30px;
 }
 
 .card {
@@ -83,10 +84,10 @@ h2 {
   padding-bottom: 40px;
   color:#fff;
 }
+
 .email,.bus-repo,.pac-repo,.eyes-repo, .intro-video {
   text-align: center;
   padding-top: 10px;
-
 }
 
 .email-btn,.bus-repo-btn,.pac-repo-btn,.eyes-repo-btn, .intro-video-btn {
@@ -95,7 +96,6 @@ h2 {
   padding: 10px 20px;
   border-radius: 6px;
   font-weight: 700; 
-
 }
 
 .demo-app{
