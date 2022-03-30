@@ -4,7 +4,6 @@
   padding: 0;
   margin: 0;
   font-family: 'Playfair Display', serif;
-  /* font-family: 'PT Serif', serif; */
 }
 
 .backgroundimg {
@@ -37,11 +36,15 @@ h1{
   padding-right: 7px;
   color: #5c383b;
 }
+
 h2 {
   padding: 30px;
   text-align: center;
 }
 
+h3 {
+  text-align: justify;
+}
 
 .about-me,
 .contact-me {
@@ -52,8 +55,7 @@ h2 {
   height: 100vh;
 }
 .profile-pic {
-  height: 500px;
-  border-radius: 50%;
+  height: 375px;
 }
 
 .card {
