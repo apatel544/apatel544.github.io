@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Playfair+Display:wght@400;700&display=swap");
 * {
   align-items: center;
   padding: 0;
   margin: 0;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .backgroundimg {
@@ -29,7 +29,7 @@
 
 /* Section CSS */
 
-h1{
+h1 {
   font-size: 109px;
   text-align: center;
   padding-bottom: 398px;
@@ -54,7 +54,6 @@ h2 {
 
 .card-img-top {
   border: #000 solid 5px;
-  width: 100%;
 }
 
 .card-title {
@@ -82,28 +81,35 @@ h2 {
   background-color: #7792a1;
   margin-bottom: 0;
   padding-bottom: 40px;
-  color:#fff;
+  color: #fff;
 }
 
-.email,.bus-repo,.pac-repo,.eyes-repo, .intro-video {
+.email,
+.bus-repo,
+.pac-repo,
+.eyes-repo,
+.intro-video {
   text-align: center;
   padding-top: 10px;
 }
-.intro-video{
+.intro-video {
   width: 100%;
 }
-.email-btn,.bus-repo-btn,.pac-repo-btn,.eyes-repo-btn, .intro-video-btn {
+.email-btn,
+.bus-repo-btn,
+.pac-repo-btn,
+.eyes-repo-btn,
+.intro-video-btn {
   background-color: #5c383b;
-  color:#fff;
+  color: #fff;
   padding: 10px 20px;
   border-radius: 6px;
-  font-weight: 700; 
+  font-weight: 700;
 }
 
-.demo-app{
+.demo-app {
   text-align: center;
   padding: 20px;
-
 }
 
 @media (max-width: 770px) {
